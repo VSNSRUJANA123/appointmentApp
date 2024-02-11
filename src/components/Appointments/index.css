@@ -1,0 +1,106 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+}
+.bgContainer {
+  padding: 30px;
+  background: linear-gradient(#9796f0, #fbc7d4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white-card {
+  width: 90%;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.white-card h1 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.text-fields {
+  margin-top: 15px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.text-fields span {
+  padding-bottom: 10px;
+}
+.text-fields input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.appointments-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  width: 50%;
+}
+
+.addBtn {
+  margin-bottom: 10px;
+  color: white;
+  width: 130px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #8b5cf6;
+  border: none;
+}
+.appointmentsContainer {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.appointment-lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.appointment-lists h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+.appointments-Container {
+  padding: 0;
+  margin: 0;
+}
+button {
+  padding: 7px;
+  border-radius: 20px;
+  width: 120px;
+  cursor: pointer;
+  border: #8b5cf6 1px solid;
+}
+.starfilterbtn {
+  background: transparent;
+  color: #8b5cf6;
+}
+.active {
+  background-color: #8b5cf6 !important;
+  color: white !important;
+}
+@media (max-width: 576px) {
+  .white-card {
+    width: 100%;
+  }
+  .white-card input {
+    width: 100%;
+  }
+  .image {
+    display: none;
+  }
+  .image img {
+    margin: 0;
+    padding: 0;
+  }
+}
